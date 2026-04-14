@@ -57,3 +57,6 @@ int main(){
     
     return 0;
 }
+
+//output 
+//Motor: 45, Speed: 5895
