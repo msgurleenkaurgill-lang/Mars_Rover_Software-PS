@@ -17,3 +17,8 @@ Navigation goal execution is not yet fully functional
 Occasional message drops from /base_scan due to queue overflow
 
 i am still debugging as to what is the error occuring , however i was able to configure and understand the Nav2 costmaps and robot footprint tuning. I learned Nav2 architecture , Costmaps and Obstacle Handling, Robot Footprint Importance, Inflation Parameters, Transform system errors, Localization (AMCL), 
+
+Inflation Radius defines how far the obstacles are expanded over the whole area. It is the radius in which , if the robot stays, it is in the safe zone. 
+Cost scaling factor is like the fear factor of the robot:
+if high cost scaling factor = less fear = sharper turns around the obstacles and closer to them as well
+if low cost scaling facotor = more fear = smoother turns and maintain more distance from obstacles.
