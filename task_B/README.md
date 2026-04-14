@@ -1,3 +1,4 @@
+In track B i did task 2
 For designing a UART packet parser , as suggested i used switch case logic for the C code.
 
 Approach:
